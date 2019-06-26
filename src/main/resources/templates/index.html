@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form method="POST" enctype="multipart/form-data"
+      action="/upload">
+    Файл для загрузки: <input type="file" name="file">
+    <br/>
+    <br/>
+    <input type="submit" value="Загрузить на сервлет">
+</form>
+
+<br/>
+<br/>
+
+<form method="GET" enctype="multipart/form-data"
+      action="/getBlock">
+    Укажите имя(хэш): <input type="text" name="name">
+    <br/>
+    <input type="submit" value="Скачать файл">
+</form>
+</body>
+</html>
